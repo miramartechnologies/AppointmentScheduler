@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportType">
+   <children>
+      <TableView fx:id="typeTableView" prefHeight="283.0" prefWidth="450.0">
+        <columns>
+          <TableColumn fx:id="typeColumn" prefWidth="75.0" text="Type" />
+          <TableColumn fx:id="monthColumn" prefWidth="75.0" text="Month" />
+            <TableColumn fx:id="numberOfAppointments" prefWidth="169.0" text="Number of Appointments" />
+        </columns>
+      </TableView>
+      <Button layoutX="406.0" layoutY="344.0" mnemonicParsing="false" onAction="#onClose" text="Close" />
+   </children>
+</AnchorPane>
